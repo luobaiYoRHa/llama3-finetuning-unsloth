@@ -4,6 +4,12 @@
 ## Try it now
 我已将我训练出来的模型upload到github上了，下载Paimon-unsloth.Q4_K_M.gguf，并使用类似于chat4All或者Ollama的platform便能在local直接使用此微调的llama3模型。我使用了原神里的派蒙文本作为此模型的训练集，并且加入了一些规范化的AI问答和一些使用派蒙语气的AI问答（称之为mutation）来训练特化的派蒙AI模型，此模型在微调之后可以使用派蒙的语气和性格特点来和使用者做出一些简单的交互，在未来，希望能够通过拓展数据集来做出更多高级的交互。
 
+## 相关项目
+unsloth：https://github.com/unslothai/unsloth
+gpt4all：https://gpt4all.io/
+triton：https://github.com/openai/triton
+llama.cpp：https://github.com/ggerganov/llama.cpp
+
 ## Installation
 1、使用unsloth的fine tuning框架微调模型
 具体code参考这个链接：https://colab.research.google.com/drive/1RwPqpLXfrt85QQ8dXl5cS5EJzycOwWDu?usp=sharing
