@@ -10,6 +10,8 @@
 我已将权限设为有link就能访问
 
 2、准备数据集
-需要自己自备想训练的人物对话数据集，人物语气特化数据集，规范化的AI数据集可以直接下载standardConversation.json。如果嫌麻烦，可以直接用我整合好的派蒙数据集进行训练，我已将这个数据集upload到了Hugginface上：https://huggingface.co/uITimeCia/Paimon
+需要自己自备想训练的人物对话数据集，人物语气特化数据集，规范化的AI数据集可以直接下载standardConversation.json。
+如果嫌麻烦，可以直接用我整合好的派蒙数据集进行训练，我已将这个数据集upload到了Huggingface上：https://huggingface.co/uITimeCia/Paimon
+我已经训练好的《原神》派蒙的gguf file也已经post到Huggingface上了:https://huggingface.co/uITimeCia/Paimon
 
 3、使用之前的unsloth框架来训练微调模型，具体的code我已经将customized parameter cooment了，请直接参考我的code来进行训练。
