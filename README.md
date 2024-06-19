@@ -26,7 +26,7 @@ llama.cpp：https://github.com/ggerganov/llama.cpp
 ## 本地微调Llama3
 ## Windows本地部署条件
 1、Windows10/Windows11  
-2、英伟达卡8G显存、16G内存，安装CUDA12.1、cuDNN8.9，C盘剩余空间20GB、unsloth安装盘S40GB  
+2、英伟达卡12G显存、16G内存，安装CUDA12.1、cuDNN8.9，磁盘剩余空间20GB、unsloth安装盘40GB  
 3、依赖软件：CUDA12.1+cuDNN8.9、Python11.9、Git、Visual Studio 2022、llvm(可选）  
 4、HuggingFace账号，上传训练数据集  
 
