@@ -53,8 +53,8 @@ pip install  triton-2.1.0-cp311-cp311-win_amd64.whl
 pip install xformers
 
 2、测试安装是否成功
-nvcc  --version
-python -m xformers.info
+nvcc  --version  
+python -m xformers.info  
 python -m bitsandbytes
 
 3、运行脚本
