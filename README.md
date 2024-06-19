@@ -37,6 +37,8 @@ llama.cpp：https://github.com/ggerganov/llama.cpp
 3、解压unsloth  
 4、安装python11  
 5、安装git  
+6、项目百度网盘链接：https://pan.baidu.com/s/1haVvMgo_ir7oFfWvU3kvVQ   
+提取码：rgs1   
 
 二、安装unsloth  
 1、安装依赖包  
