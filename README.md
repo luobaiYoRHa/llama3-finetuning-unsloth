@@ -58,7 +58,6 @@ fine-tuning.py   用数据集微调
 test-lora.py   测试微调之后推理  
 save-16bit.py  合并保存模型16位  
 save-gguf-4bit.py  4位量化gguf格式  
-若本地运行fine-tuning.py出错，出现gcc.exe无法编译，可以尝试下载llvm-windows-x64.zip解压，在系统环境变量path路径里添加llvm下的bin路径
 
 三、4位量化需要安装llama.cpp，步骤如下：  
 1、git clone https://github.com/ggerganov/llama.cpp  
