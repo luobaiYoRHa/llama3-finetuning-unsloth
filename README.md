@@ -40,11 +40,16 @@ llama.cpp：https://github.com/ggerganov/llama.cpp
 
 二、安装unsloth
 1、安装依赖包
-pip install torch==2.2.2 --index-url https://download.pytorch.org/whl/cu121
-pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
-pip install --no-deps trl peft accelerate bitsandbytes
-pip install deepspeed-0.13.1+unknown-py3-none-any.whl
-pip install  triton-2.1.0-cp311-cp311-win_amd64.whl
+pip install torch==2.2.2 --index-url https://download.pytorch.org/whl/cu121  
+
+pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"  
+
+pip install --no-deps trl peft accelerate bitsandbytes  
+
+pip install deepspeed-0.13.1+unknown-py3-none-any.whl  
+
+pip install  triton-2.1.0-cp311-cp311-win_amd64.whl  
+
 pip install xformers
 
 2、测试安装是否成功
