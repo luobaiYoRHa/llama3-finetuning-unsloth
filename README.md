@@ -63,7 +63,7 @@ I have uploaded my trained model to GitHub. Download `Paimon-unsloth.Q4_K_M.gguf
 2. Test the installation
    nvcc --version  
   python -m xformers.info  
-  python -m bitsandbytes
+  python -m bitsandbytes 
 3.Run scripts
   test-unlora.py  # Test inference before fine-tuning  
   fine-tuning.py  # Fine-tune the model with the dataset  
